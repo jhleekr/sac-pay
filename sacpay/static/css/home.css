@@ -1,0 +1,198 @@
+body {
+    height: 100vh;
+}
+#card {
+    /* Card Background */
+    position: absolute;
+    width: 80%;
+    height: 45%;
+    left: 0%;
+    top: -5%;
+    background-color: #800020;
+    border-radius: 4vw;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80vw;
+}
+#content {
+    position: absolute;
+    top: max(80vw, 40%);
+    height: 50%;
+    max-height: calc((100vh - 80vw) * 0.9);
+    overflow-y: scroll;
+    width: 100%;
+    left: 0px;
+}
+#logo {
+    padding-top: 15%;
+    width: 20vw;
+    height: calc(20vw / 488 * 294);
+    align-self: center;
+}
+#welcome {
+    width: auto;
+    height: auto;
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+}
+#logotxt {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 17vw;
+    top: 3.5vh;
+    font-size: 150%;
+    color: white;
+}
+#logout {
+    width: auto;
+    height: auto;
+    align-self: flex-end;
+    font-size: 80%;
+    color: white;
+}
+#ano {
+    /* account number */
+    width: auto;
+    height: auto;
+    align-self: flex-end;
+    font-size: 150%;
+    color: #ffffff;
+}
+#balance {
+    /* account number */
+    width: auto;
+    height: auto;
+    font-size: 300%;
+    text-align: center;
+    align-self: center;
+    color: #ffffff;
+}
+#btns {
+    display: flex;
+    flex-direction: row;
+}
+#pay {
+    width: 35%;
+    height: 5vh;
+    line-height: 5vh;
+    left: 13%;
+    top: 32%;
+    font-size: 120%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5vw;
+    flex-grow: 1;
+    margin: 3%;
+}
+#send {
+    width: 35%;
+    height: 5vh;
+    line-height: 5vh;
+    right: 13%;
+    top: 32%;
+    font-size: 120%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5vw;
+    flex-grow: 1;
+    margin: 3%;
+}
+#record {
+    position: absolute;
+    font-size: 3vh;
+    width: auto;
+    height: auto;
+    left: 10vw;
+    top: 5vh;
+}
+
+.rec1 {
+    position: absolute;
+}
+#desc1 {
+    font-size: 6vw;
+    left: 15vw;
+    top: 12vh;
+}
+#amnt1 {
+    font-size: 5vw;
+    text-align: right;
+    right: 15vw;
+    top: 16vh;
+}
+#time1 {
+    font-size: 3vw;
+    left: 15vw;
+    top: 21vh;
+    color: gray;
+}
+#apvd1 {
+    font-size: 3vw;
+    text-align: right;
+    right: 15vw;
+    top: 21vh;
+    color: gray;
+}
+#bord1 {
+    width: 80vw;
+    height: 15vh;
+    left: 10vw;
+    top: 10vh;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.rec2 {
+    position: absolute;
+}
+#desc2 {
+    font-size: 6vw;
+    left: 15vw;
+    top: 27vh;
+}
+#amnt2 {
+    font-size: 5vw;
+    text-align: right;
+    right: 15vw;
+    top: 31vh;
+}
+#time2 {
+    font-size: 3vw;
+    left: 15vw;
+    top: 36vh;
+    color: gray;
+}
+#apvd2 {
+    font-size: 3vw;
+    text-align: right;
+    right: 15vw;
+    top: 36vh;
+    color: gray;
+}
+#bord2 {
+    width: 80vw;
+    height: 15vh;
+    left: 10vw;
+    top: 25vh;
+    border-bottom: 1px solid gray;
+}
+
+#loading {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    line-height: 100vh;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    font-size: 400%;
+    text-align: center;
+    z-index: 20;
+}

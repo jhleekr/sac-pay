@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/global.css">
+    <link type="text/css" rel="stylesheet" href="css/send.css">
+    <link type="text/css" rel="stylesheet" href="css/menubar.css">
+    <title>SAC Pay</title>
+</head>
+<body>
+    <script src="js/mobile.js"></script>
+    <!--Layer 1-->
+    <div id="card">
+        <div id="blank"></div>
+        <img id="logo" src="img/logo-tight.png" alt="SAC Pay Logo">
+        <div id="menuname">송금</div>
+        <div id="balance">잔액: ƕ</div>
+        <div id="lano" class="label">입금할 계좌번호</div>
+        <input id="ano" class="tinput" name="ano" type="text" value="">
+        <div id="lamnt" class="label">보낼 금액</div>
+        <input id="amnt" class="tinput" name="amnt" type="text" value="">
+        <div id="ldesc" class="label">통장 표기 (최대 10자)</div>
+        <input id="desc" class="tinput" name="desc" type="text" value="">
+        <div id="loading"></div>
+        <div id="confirm">확인</div>
+    </div>
+    <div id="mnb_bg">
+        <div id="mnb_inner">
+            <img id="mnb_pay" class="mnb_ico" src="img/pay.png" onclick="window.location.href='/pay'">
+            <img class="mnb_ico" src="img/history.png" onclick="window.location.href='/record'">
+            <img class="mnb_ico" src="img/home.png" onclick="window.location.href='/home'">
+            <img class="mnb_ico" src="img/exchange.png" onclick="window.location.href='/send'">
+        </div>
+        <div id="mnb_blank"></div>
+    </div>
+    <!--Layer 2-->
+    <div id="l2bg" class="popup"></div>
+    <div id="l2ctn" class="popup">
+        <div id="l2text1" class="popup">이종현 님에게</div>
+        <div id="l2text2" class="popup">100000ƕ를 송금할까요?</div>
+        <div id="l2cfrm" class="popup">보내기</div>
+        <div id="l2deny" class="popup">아뇨, 안 보낼래요</div>
+    </div>
+    <!--Layer 3-->
+    <div id="l3bg" class="done">
+        <img id="l3logo" src="img/logo-tight.png" alt="SAC Pay Logo" class="done">
+        <div id="l3menuname" class="done">송금</div>
+        <div id="l3text" class="done">송금이 완료되었습니다.</div>
+        <div id="l3balance" class="done">잔액: ƕ</div>
+        <div id="l3cfrm" class="done">돌아가기</div>
+    </div>
+    <script src="js/lang.js"></script>
+    <script src="js/menubar.js"></script>
+    <script src="js/send.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/global.css">
+    <link type="text/css" rel="stylesheet" href="css/alogin.css">
+    <title>SP Console | Login</title>
+</head>
+<body>
+    <img id="logo" src="img/logo-tight.png" alt="SAC Pay Logo">
+    <div id="logotxt">SAC Pay Console | Login</div>
+    <form action="alogin" method="post" id="lgn" enctype="multipart/form-data">
+        <label id="lid" for="uid">ID</label>
+        <input id="uid" type="text" name="uid">
+        <label id="lpw" for="upw">PW</label>
+        <input id="upw" type="password" name="upw">
+        <input id="submit" type="submit" value="login">
+        <p>관리자님 환영합니다. 로그인시 관리자 페이지로 이동됩니다.</p>
+        <p>ID/PW가 암호화되지 않은 상태로 전송되므로 안전한 환경에서만 사용하시기 바랍니다.</p>
+    </form>
+    <div id="console">CONSOLE// NO SESSION</div>
+    <div id="output">OUTPUT// STANDBY</div>
+    <script src="js/alogin.js"></script>
+</body>
+</html>

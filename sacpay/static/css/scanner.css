@@ -1,0 +1,38 @@
+#logo {
+    position: absolute;
+    width: 10vw;
+    top: 5vw;
+    left: 5vw;
+}
+#logotxt {
+    position: absolute;
+    top: 3vw;
+    left: 17vw;
+    height: 10vw;
+    line-height: 10vw;
+    font-size: 5vw;
+}
+#content {
+    position: absolute;
+    top: 20vw;
+    left: 0vw;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#reader {
+    width: 80vw;
+}
+#txts {
+    display: flex;
+    align-items: left;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 5vw;
+}
+#txt1, #txt2, #txt3, #txt4 {
+    display: block;
+    max-width: 100vw;
+    word-break:break-word;
+}

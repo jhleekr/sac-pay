@@ -1,0 +1,12 @@
+[Unit]
+Description=SAC Pay Service
+
+[Service]
+ExecStart=/var/www/sacpay/service/sacpay.sh
+WorkingDirectory=/var/www/sacpay
+
+User=www-data
+Group=www-data
+
+[Install]
+WantedBy=multi-user.target

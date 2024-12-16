@@ -1,0 +1,255 @@
+body {
+    background-color: #800020;
+}
+#card {
+    /* Card Background */
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    left: 0%;
+    top: -5%;
+    border-radius: 4vw;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80vw;
+    padding-bottom: 10%;
+}
+#logo {
+    padding-top: 15%;
+    width: 20vw;
+    height: calc(20vw / 488 * 294);
+    align-self: center;
+}
+#menuname {
+    width: auto;
+    height: auto;
+    font-size: 200%;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#balance {
+    align-self: center;
+    width: auto;
+    height: auto;
+    font-size: 100%;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#loading {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    line-height: 100vh;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    font-size: 400%;
+    text-align: center;
+    z-index: 50;
+}
+.label {
+    text-align: left;
+    font-size: 100%;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+    left: 10vw;
+}
+#lano {
+    top: 20vh;
+}
+#lamnt {
+    top: 30vh;
+}
+#ldesc {
+    top: 40vh;
+}
+.tinput {
+    font-size: 120%;
+    text-align: left;
+    color: white;
+    width: auto;
+    height: auto;
+    left: 10vw;
+    border-top: 0px;
+    border-bottom: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #800020;
+}
+.tinput:focus {
+    border-top: 0px;
+    border-bottom: 4px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+}
+#ano {
+    top: 25vh;
+}
+#amnt {
+    top: 35vh;
+}
+#desc {
+    top: 45vh;
+}
+#unit {
+    font-size: 100%;
+    text-align: left;
+    color: gray;
+    width: auto;
+    height: auto;
+    top: 34vh;
+    left: 76vw;
+}
+#confirm {
+    width: 80vw;
+    height: 5vh;
+    line-height: 5vh;
+    left: 10vw;
+    top: 90vh;
+    font-size: 120%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5vw;
+}
+
+.popup {
+    z-index: 15;
+    display: none;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+#l2bg {
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    left: 0vw;
+    top: 30vh;
+    background-color: #b26162;
+    border-radius: 5vw;
+}
+#l2ctn {
+    position: absolute;
+    left: 0vw;
+    top: 50vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+#l2text1 {
+    font-size: 200%;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 1vh;
+}
+#l2text2 {
+    font-size: 120%;
+    font-size: 200%;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 1vh;
+}
+#l2cfrm {
+    width: 80vw;
+    height: 5vh;
+    line-height: 5vh;
+    left: 10vw;
+    font-size: 120%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5vw;
+    margin: 1vh;
+}
+#l2deny {
+    font-size: 150%;
+    color: rgba(192, 192, 192);
+    border-bottom: 1px solid rgba(192, 192, 192);
+    padding: 5px;
+    margin: 1vh;
+}
+
+.effect {
+    animation-duration: 0.5s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-top: 100vh;
+    }
+  
+    to {
+        margin-top: 0vh;
+    }
+}
+
+.done {
+    z-index: 20;
+    display: none;
+    margin-bottom: 1vh;
+}
+#l3bg {
+    /* Card Background */
+    position: absolute;
+    width: 80vw;
+    height: 100vh;
+    left: 0vw;
+    top: 0vh;
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    background-color: #800020;
+    margin: 0vh;
+}
+#l3logo {
+    padding-top: 10%;
+    width: 20vw;
+    height: calc(20vw / 488 * 294);
+    align-self: center;
+}
+#l3menuname {
+    width: auto;
+    height: auto;
+    font-size: 200%;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#l3text {
+    width: 80vw;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    left: 10vw;
+    margin-top: 20vh;
+    font-style: bold;
+    font-size: 200%;
+    color: #FFFFFF;
+}
+#l3balance {
+    align-self: center;
+    width: auto;
+    height: 10vh;
+    font-size: 150%;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#l3cfrm {
+    width: 80vw;
+    height: 5vh;
+    line-height: 5vh;
+    left: 10vw;
+    top: 90vh;
+    font-size: 120%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5vw;
+}

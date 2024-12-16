@@ -1,0 +1,49 @@
+#logo {
+    position: absolute;
+    width: 10vw;
+    top: 5vw;
+    left: 5vw;
+}
+#logotxt {
+    position: absolute;
+    top: 3vw;
+    left: 17vw;
+    height: 10vw;
+    line-height: 10vw;
+    font-size: xx-large;
+}
+#form {
+    position: absolute;
+    top: 15vw;
+    left: 5vw;
+}
+#console {
+    position: absolute;
+    height: 2vh;
+    top: 3vh;
+    right: 3vw;
+}
+#output {
+    position: absolute;
+    height: 2vh;
+    top: 5vh;
+    right: 3vw;
+}
+#bdy {
+    position: absolute;
+    top: 12vw;
+    display: flex;
+    flex-direction: row;
+}
+#left {
+    margin: 5vw;
+    background-color: aliceblue;
+    width: 40vw;
+    overflow: scroll;
+}
+#right {
+    margin: 5vw;
+    background-color: aliceblue;
+    width: 40vw;
+    overflow: scroll;
+}

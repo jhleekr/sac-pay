@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/global.css">
+    <link type="text/css" rel="stylesheet" href="css/admin-give.css">
+    <title>SP Console | Program</title>
+</head>
+
+<body>
+    <div id="card"></div>
+    <div id="flexbox">
+        <img id="logo" src="img/logo-tight.png" alt="SAC Pay Logo">
+        <div id="logotxt">SAC Pay Console | PROGRAM</div>
+    </div>
+    <div id="form">
+        <h1 id="program">현재 프로그램명: SAC Pay</h1>
+        <label id="lstu" for="stu">학번(복수입력)</label>
+        <input id="stu" type="text">
+        <br>
+        <label id="lamnt" for="amnt">금액</label>
+        <input id="amnt" type="number">
+        <br>
+        <label id="lrsn" for="rsn">지급사유(최대10자)</label>
+        <input id="rsn" type="text">
+        <div>학번은 쉼표(,)로 구분하여 21-079 형식으로 입력</div>
+        <div>ex) 21-001,21-079,23-077</div>
+        <div>양식 지키지 않을시 제대로 처리되지 않을 수 있음</div>
+        <div>지급사유 학예부에서 검토한 이후 지급됨.</div>
+        <input id="submit" type="button" value="지급요청">
+    </div>
+    <div id="console">CONSOLE// SESSION:{session}</div>
+    <div id="output">OUTPUT// STANDBY</div>
+    <script src="js/admin-give.js"></script>
+</body>
+
+</html>

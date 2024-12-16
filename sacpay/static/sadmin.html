@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/global.css">
+    <link type="text/css" rel="stylesheet" href="css/sadmin.css">
+    <title>SP Console | SADMIN</title>
+</head>
+<body>
+    <img id="logo" src="img/logo-tight.png" alt="SAC Pay Logo">
+    <div id="logotxt">SAC Pay Console | SADMIN</div>
+    <div id="bdy">
+        <div id="left">
+            <h1>승인대기 지급요청 목록</h1>
+            <table id="ltable" align="right">
+                <thead>
+                    <th>이름</th>
+                    <th>지급사유</th>
+                    <th>금액</th>
+                    <th>승인/거절</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="right">
+            <h1>계정 관리</h1>
+            <table id="rtable">
+                <thead>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>TYPE</th>
+                    <th>변경</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <div id="console">CONSOLE// SESSION:{session}</div>
+    <div id="output">OUTPUT// STANDBY</div>
+    <script src="js/sadmin.js"></script>
+</body>
+</html>

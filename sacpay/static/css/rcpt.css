@@ -1,0 +1,30 @@
+body {
+    width: 300px;
+    max-width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo {
+    width: 250px;
+    padding: 20px;
+}
+#detail {
+    width: 250px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+table {
+    align-self: center;
+}
+.rec {
+    padding: 5px;
+}
+#code {
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

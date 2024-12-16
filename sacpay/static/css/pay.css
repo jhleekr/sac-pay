@@ -1,0 +1,106 @@
+body {
+    background-color: #800020;
+}
+#card {
+    /* Card Background */
+    position: absolute;
+    width: 80%;
+    height: 68%;
+    left: 0%;
+    top: -5%;
+    background-color: #ffffff;
+    border-radius: 4vw;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80vw;
+    padding-bottom: 10%;
+}
+#content {
+    position: absolute;
+    top: max(80vw, 40%);
+    height: 50%;
+    max-height: calc((100vh - 80vw) * 0.9);
+    overflow-y: scroll;
+    width: 100%;
+    left: 0px;
+}
+#logo {
+    padding-top: 15%;
+    width: 20vw;
+    height: calc(20vw / 488 * 294);
+    align-self: center;
+}
+#menuname {
+    width: auto;
+    height: auto;
+    font-size: 200%;
+    font-weight: bold;
+    color: #800020;
+}
+canvas#qr {
+    width: 80vw;
+    height: 80vw;
+    left: 10vw;
+    top: 30vh;
+}
+
+#logotxt {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 23vw;
+    top: 3.5vh;
+    font-size: 150%;
+}
+#home {
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 10%;
+    top: 4%;
+    font-size: 80%;
+    color: gray;
+}
+#timetxt1 {
+    position: absolute;
+    width: 80vw;
+    font-size: 3vh;
+    left: 10vw;
+    top: 31vh;
+    padding-top: 80vw;
+    color: white;
+    font-style: bold;
+}
+#timetxt2 {
+    position: absolute;
+    width: 80vw;
+    font-size: 3vh;
+    text-align: right;
+    right: 10vw;
+    top: 31vh;
+    padding-top: 80vw;
+    color: white;
+    font-style: bold;
+}
+#barfront {
+    position: absolute;
+    width: 80vw;
+    height: 1vh;
+    right: 10vw;
+    top: 35vh;
+    margin-top: 80vw;
+    background-color: white;
+    z-index: 1;
+}
+#barback {
+    position: absolute;
+    width: 80vw;
+    height: 1vh;
+    left: 10vw;
+    top: 35vh;
+    margin-top: 80vw;
+    background-color: gray;
+}

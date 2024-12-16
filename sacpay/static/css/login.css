@@ -1,0 +1,40 @@
+#logo {
+    width: 80%;
+    height: auto;
+    align-self: center;
+}
+#login {
+    width: 70%;
+    height: 7%;
+    font-size: 2.5vh;
+    color: white;
+    background-color: rgb(128, 0, 32);
+    border-radius: 1rem;
+    border: 3px solid black;
+    align-self: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    align-content: center;
+}
+#i, #h {
+    height: 3vh;
+    line-height: 3vh;
+    font-size: 2.5vh;
+    padding-top: 2vh;
+}
+#h {
+    margin: 0px 10px 0px 0px;
+}
+#idv {
+    align-self: center;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid rgb(128, 0, 32);
+}

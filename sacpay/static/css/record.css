@@ -1,0 +1,102 @@
+#card {
+    /* Card Background */
+    position: absolute;
+    width: 80%;
+    height: 25%;
+    left: 0%;
+    top: -5%;
+    background-color: #800020;
+    border-radius: 4vw;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 40vw;
+}
+#logo {
+    padding-top: 15%;
+    width: 20vw;
+    height: calc(20vw / 488 * 294);
+    align-self: center;
+}
+#welcome {
+    width: auto;
+    height: auto;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    margin: 5%;
+}
+#content {
+    position: absolute;
+    top: max(40vw, 20%);
+    height: 65%;
+    max-height: calc((100vh - 50vw) * 0.9);
+    overflow-y: scroll;
+    width: 100%;
+    left: 0px;
+}
+
+#logotxt {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 23vw;
+    top: 3.5vh;
+    font-size: 150%;
+}
+#home {
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 10%;
+    top: 4%;
+    font-size: 80%;
+    color: gray;
+}
+#menuname {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 10%;
+    top: 10%;
+    font-size: 120%;
+}
+
+div[class^=rec] {
+    position: absolute;
+}
+div[id^=desc] {
+    font-size: 6vw;
+    left: 15vw;
+}
+div[id^=amnt] {
+    font-size: 5vw;
+    text-align: right;
+    right: 15vw;
+}
+div[id^=time] {
+    font-size: 3vw;
+    left: 15vw;
+    color: gray;
+}
+div[id^=apvd] {
+    font-size: 3vw;
+    text-align: right;
+    right: 15vw;
+    color: gray;
+}
+div[id^=bord] {
+    width: 80vw;
+    height: 15vh;
+    left: 10vw;
+    border-bottom: 1px solid gray;
+}
+div#bord1 {
+    width: 80vw;
+    height: 15vh;
+    left: 10vw;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}

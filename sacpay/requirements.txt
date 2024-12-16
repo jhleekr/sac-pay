@@ -1,0 +1,8 @@
+fastapi[all]
+qrcode[pil]
+gunicorn
+sqlalchemy
+oauthlib
+requests
+pymysql
+bcrypt
